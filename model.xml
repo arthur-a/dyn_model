@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DjangoApp>
+ <Table name="users" title="Пользователи" admin="True">
+  <Field name="name" title="Имя" type="char"/>
+  <Field name="paycheck" title="Зарплата" type="int"/>
+ </Table>
+ <Table name="rooms" title="Комнаты" admin="True">
+  <Field name="department" title="Отдел" type="char"/>
+  <Field name="spots" title="Вместимость" type="int"/>
+ </Table>
+</DjangoApp>
